@@ -1,0 +1,19 @@
+.form-login{
+    width: 298px;
+    height: 475px;
+    margin-top: 116px;
+    margin-left: 40%;
+}
+.icon-logo{
+    font-size: 60px;
+}
+#btn-showpass{
+    font-size: 20px;
+    position: relative;
+    top: -33px;
+    left: 263px;
+}
+#text-error{
+	display:none;
+	color:red;
+}

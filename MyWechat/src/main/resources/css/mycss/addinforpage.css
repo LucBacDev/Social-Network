@@ -1,0 +1,13 @@
+.div-infoBasicUser{
+    width: 624px;
+    margin-left: 30%;
+    margin-top: 0px;
+}
+.birthday-input{
+    position: relative;
+    top: 34px;
+    left: -73px;
+}
+#btn-login{
+	display:none;
+}
