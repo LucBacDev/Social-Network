@@ -1,0 +1,253 @@
+body{
+    background-color: #F0F2F5;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    padding: 0;
+    
+}
+.btn-logout{
+    margin-right: 40px;
+}
+
+.icons-header{
+    font-size: 30px;
+    padding:0px 20px;
+    color: black;
+ }
+ .icons-header:hover{
+     color: blue;
+ }
+ .div-logo{
+    margin-left: 44px;
+     display: flex;
+ }
+ .icon-logo{
+     font-size: 40px;
+ }
+ .header>ul{
+    margin-top: 0;
+    position: relative;
+    top: -4px;
+ }
+ .btn-header{
+    position: relative;
+    top: -4px;
+ }
+ .div-background{
+    width: 70%;
+    height: 405px;
+    margin:60px 15% 0 15%;
+    
+    background-color: antiquewhite;
+ }
+ .div-background>img{
+    width: 100%;
+    
+ }
+ .div-background{
+    position: relative;
+ }
+ .div-background>.btn-change-background{
+    position: absolute;
+    right: 32px;
+    bottom: 16px;
+ }
+ .svg-camera{
+    margin-bottom: 4px;
+ }
+ .basic-info{
+    margin: 0 17% 0 17%;
+    position: relative;
+ }
+ .btn-change-avatar{
+    background-color: #E4E6EB;
+    
+ }
+ .user-name{
+    margin-left: 20px;
+    margin-top: 28px;
+ }
+ .user-avatar{
+    position: relative;
+ }
+ .user-avatar>img{
+  
+ }
+ .user-avatar>.btn-change-avatar{
+    position: absolute;
+    top: 133px;
+    left: 122px;
+ }
+ .btn-changeprofile{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 66px;
+    right: 122px;
+ }
+ .div-body-personalpage{
+    width: 70%;
+    margin: 0 15%;
+    
+ }
+ .left-navigation{
+    width: 50%;
+    margin-top: 8px;
+    margin-left: 3%;
+    background-color: #fff;
+    border-radius: 5%;
+ }
+ .left-navigation>.detail-info>h2,.title-listimg{
+    margin-top: 20px;
+    margin-left: 18px;
+ }
+ .left-navigation>.story>p{
+    margin-left: 112px;
+ }
+ .left-navigation>.story>button{
+    margin-left: 20px;
+    width: 92%;
+ }
+ .sub-detail-info {
+    margin-left: -30px;
+    width: 92%;
+ }
+ .list-group-item{
+    border: none;
+ }
+ .list-group-item .h6-subinfo{
+    margin-top: 4px;
+ }
+ .list-img{
+   width: 100%;
+   
+}
+.user-imgs {
+   width: 100%; 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.user-imgs >a{
+   margin: 5px 5px;
+   width: 30%
+   
+}
+.user-imgs >a>img{
+   
+   width: 100%
+}
+.right-navigation{
+   width: 50%;
+   margin-top: 8px;
+   margin-left: 3%;
+   background-color: #fff;
+   border-radius: 5%;
+}
+.list-card{
+   
+ 
+}
+.card-text{
+   margin-left: 4px;
+   margin-bottom: 0;
+}
+.card-body{
+   padding: 4px;
+   margin-left: 16px;
+   margin-top: 0px;
+}
+.card-title{
+   margin-left: 4px;
+   margin-bottom: 0px;
+}
+.card{
+   background-color: #fff;
+ 
+   margin-top: 8px;
+}
+
+.card-inputstatus{
+   width: 80%;
+   height: 100%;
+}
+.card>div>.img-normal{
+   margin-left: 8px;
+   margin-top: 4px;
+}
+
+
+.card-status>img{
+   margin-left: 40px;
+}
+.card-body-avatar{
+   margin-left: 0;
+}
+.btn-footer-card{
+   color: black;
+   width: 152px;
+}
+.btn-footer-card > i{
+   font-style: normal;
+}
+.btn-footer-card:hover{
+   background-color: #b1b6b6;
+   
+}
+.a-footer-card{
+   text-decoration: none;
+   color: black;
+   margin-right: 12px;
+}
+.detail-comment{
+   background-color: #F0F2F5;
+   border: 1px solid #F0F2F5;
+   border-radius: 10px;
+   padding: 0 12px;
+}
+.user-comment{
+   margin-top: 12px;
+}
+
+.detail-comment>p, .detail-comment>h6{
+   margin: 0 ;
+   padding: 0;
+   
+}
+.my-comment>input{
+   width: 90%;
+}
+#i-send {
+   margin-left: 12px;
+   font-size: 24px;
+}
+.my-comment>a{
+   color: black;
+}
+.comment{
+   margin-top: 8px;
+}
+.title-actioncomment >a {
+   margin-left: 32px;
+   text-decoration: none;
+   color: black;
+   font-size: 12px;
+}
+.div-action{
+	position: relative;
+	left:75%;
+	top:0px;
+}
+.div-action2{
+	position: relative;
+	left:60%;
+	top:300px;
+	z-index:100;
+}

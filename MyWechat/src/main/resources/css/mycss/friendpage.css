@@ -1,0 +1,129 @@
+@charset "ISO-8859-1";
+body{
+    background-color: #F0F2F5;
+    behavior:smooth;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    padding: 0;
+    
+}
+.btn-logout{
+    margin-right: 40px;
+}
+
+.icons-header{
+    font-size: 30px;
+    padding:0px 20px;
+    color: black;
+ }
+ .icons-header:hover{
+     color: blue;
+ }
+ .div-logo{
+    margin-left: 44px;
+     display: flex;
+ }
+ .icon-logo{
+     font-size: 40px;
+ }
+ .header>ul{
+    margin-top: 0;
+    position: relative;
+    top: -4px;
+ }
+ .btn-header{
+    position: relative;
+    top: -4px;
+ }
+
+ .leftnavigation{
+    width: 20%;
+    position: fixed;
+    top: 72px;
+    left: 20px;
+    z-index: 1;
+}
+
+.div-flex{
+    display: flex;
+}
+.a-flex{
+	display: flex;
+}
+
+.ul-margin{
+    position: relative;
+
+}
+.ul-margin>li{
+    width: 240px;
+    height: 50px;
+}
+.ul-margin>li>a{
+    width: 240px;
+    height: 50px;
+}
+.ul-margin>li{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.ul-margin>li:hover>a{
+    background-color: #ccc;
+}
+
+.ul-margin>li>a>i{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.p-functionnav{
+	margin-left:20px;
+	width: 120px;
+	height: 80px;
+}
+
+.iSearch{
+	font-size: 24px;
+}
+.icon-nav{
+    font-size: 22px;
+    margin-left: 40px;
+}
+.div-listaddfriends{
+
+	margin-left: 280px;
+    margin-top: 80px;
+}
+.list-card{
+	width: 100%;
+	flex-wrap: wrap;
+	
+	
+}
+.card{
+	width: 19%;
+	margin-left:1%;
+}
+
+.div-listaddfriends-2{
+	margin-left: 280px;
+    margin-top: 80px;
+}
+
+.div-listaddfriends-3{
+	margin-left: 280px;
+    margin-top: 20px;
+}
+
+.div-listaddfriends-2 > h3,.div-listaddfriends > h3,.div-listaddfriends-3 >h3{
+	font-weight: bold;
+}
+
+

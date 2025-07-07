@@ -1,0 +1,360 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+.firstchild-body{
+  
+    width: 100%;
+    position: relative;
+    
+}
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.icons-header{
+    font-size: 30px;
+    padding:0px 20px;
+    color: black
+ }
+ .icons-header:hover{
+     color: blue;
+ }
+ .div-logo{
+    margin-left: 44px;
+     display: flex;
+ }
+ .icon-logo{
+     font-size: 60px;
+ }
+ .leftnavigation{
+    width: 20%;
+    position: fixed;
+    top: 130px;
+    left: 20px;
+    z-index: 1;
+}
+.btn-logout{
+    margin-right: 40px;
+}
+.div-flex{
+    display: flex;
+}
+.a-flex{
+    display: flex;
+}
+.a-flex > p{
+    margin-left: 60px;
+    margin-top: 4px;
+}
+.icon-nav{
+    font-size: 22px;
+    margin-left: 40px;
+}
+.ul-margin{
+    position: relative;
+
+}
+.ul-margin>li{
+    width: 240px;
+    height: 50px;
+}
+.ul-margin>li>a{
+    width: 240px;
+    height: 50px;
+}
+.ul-margin>li{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.ul-margin>li:hover>a{
+    background-color: #ccc;
+}
+
+.ul-margin>li>a>i{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.p-functionnav{
+width: 120px;
+height: 80px;
+}
+.iSearch{
+	font-size: 24px;
+}
+
+.list-card{
+    width: 75%;
+    position: absolute;
+    top: 124px;
+    left:25%;
+    z-index: -1;
+}
+.card-text{
+    margin-left: 4px;
+    margin-bottom: 0;
+}
+.card-body{
+    padding: 4px;
+    margin-left: 16px;
+    margin-top: 0px;
+}
+.card-title{
+    margin-left: 4px;
+    margin-bottom: 0px;
+}
+.card{
+    background-color: #fff;
+    width: 60%;
+    margin-top: 8px;
+}
+.card-inputstatus{
+    width: 80%;
+    height: 100%;
+}
+.card>div>.img-normal{
+    margin-left: 8px;
+    margin-top: 4px;
+}
+.img-miniavatar{
+margin-left: 0;
+}
+.card-status>img{
+    margin-left: 40px;
+}
+.card-body-avatar{
+    margin-left: 0;
+}
+
+.status-icons{
+    font-size: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.rightnavigation{
+    width: 20%;
+    position: fixed;
+    top: 130px;
+    right: 0;
+}
+.btn-friend{
+
+    width: 120px;
+}
+.a-birtday{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.title-rightnavi{
+    color: #727575;
+}
+
+.btn-footer-card{
+    color: black;
+ 
+    width: 220px;
+}
+.btn-footer-card > i{
+    font-style: normal;
+}
+.btn-footer-card:hover{
+    background-color: #b1b6b6;
+    
+}
+.a-footer-card{
+	
+    text-decoration: none;
+    color: black;
+    width: 300px;
+    flex-wrap: nowrap;
+}
+.detail-comment{
+    background-color: #F0F2F5;
+    border: 1px solid #F0F2F5;
+    border-radius: 10px;
+    padding: 0 12px;
+}
+.user-comment{
+    margin-top: 12px;
+    max-height: 134px;
+    overflow: auto
+}
+
+.detail-comment>p, .detail-comment>h6{
+    margin: 0 ;
+    padding: 0;
+    
+}
+.my-comment>input{
+    width: 90%;
+}
+.i-send {
+    margin-left: 12px;
+    font-size: 24px;
+}
+.my-comment>a{
+    color: black;
+}
+.comment{
+    margin-top: 8px;
+}
+.title-actioncomment >a {
+    margin-left: 32px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.list-messages h2{
+    margin-left: 8px;
+}
+.list-messages{
+    
+    position: fixed;
+    width: 25%;
+    top: 84px;
+    left: 70%;
+}
+#div-listmessages{
+   display: none;
+}
+.group-messages{
+    border: 1px solid #D2D2D2;
+    background-color: #fff;
+}
+.btn-listchats{
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.div-createmessage h5{
+    margin-left: 8px;
+} 
+.div-createmessage{
+    display: none;
+    position: fixed;
+   
+    top: 320px;
+    right:40px;
+    
+}
+.input-contentmess{
+    margin-top: 202px;
+}
+.div-createmessage .btn-listchats{
+    margin-left: 110px;
+}
+#my-inputmessage{
+    padding: 0;
+    
+}
+#a-input-mess{
+    width: 80%;
+ padding: 8px !important;
+}
+.input-contentmess > a{
+ margin-left: 8px;
+ font-size: 24px;
+}
+#inputCreateStatus{
+	margin-left: 20px;
+    width: 92%;
+}
+.select-scope{
+	margin-left:4px;
+	width: 100px;
+	height: 26px;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+.select-scope > option{
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+.img-template{
+	width:40px;
+	margin-left:20px;
+	cursor:pointer;
+}
+#div-templatebackground{
+	display:none;
+}
+#div-emoteaction{
+	display: none;
+}
+.i-scope{
+	display:block !important;
+}
+.ul-emotes{
+	margin-top:20px;
+	margin-left: 40px;
+	
+}
+.li-emotes{
+	cursor:pointer;
+	list-style-type: none !important;
+}
+.li-emotes > i{
+	font-size:20px;
+}
+#div-actions{
+	display: none;
+	
+}
+#div-tagfriend{
+	display:none;
+}
+.div-postImgs{
+	flex-wrap:wrap;
+}
+.img-posts{
+	display:flex;
+	width: calc(100%/2);
+	
+}
+
+.img-post{
+	display:flex;
+	width: 100%;
+	
+}
+.backgroundimage-post{
+	margin-left:15%;
+	width:430px;
+	height:620px;
+	justify-content:center;
+	display:flex;
+	align-items:center;
+	font-weight:bold;
+	font-size:28px;
+}
+.card-title > p{
+	margin-bottom: 0;
+	margin-left: 8px;
+
+	}
+.list-comments{
+	display:none;
+	transition: opacity 0.5s ease-in-out;
+}
+#filter-listcomment{
+	
+	position: relative;
+	top:10px;
+	left:85%;
+}
+.a-bi-send{
+	cursor: pointer;
+}
+
